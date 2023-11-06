@@ -16,7 +16,7 @@ requirements:
   run:
     - cuda-command-line-tools {{ version }}
     - cuda-visual-tools {{ version }}
-    - gds-tools 1.5.0.59                     # [linux64 or aarch64]
+    - gds-tools 1.5.0.59                     # [linux64]
 
 test:
   commands:
