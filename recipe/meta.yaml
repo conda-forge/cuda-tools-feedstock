@@ -10,13 +10,13 @@ source:
 
 build:
   number: 0
-  skip: true  # [osx]
+  skip: true  # [osx or ppc64le]
 
 requirements:
   run:
     - cuda-command-line-tools {{ version }}
     - cuda-visual-tools {{ version }}
-    - gds-tools 1.10.0.4                      # [linux64 or aarch64]
+    - gds-tools 1.10.0.4                     # [linux]
 
 test:
   commands:
