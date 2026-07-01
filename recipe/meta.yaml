@@ -1,4 +1,4 @@
-{% set version = "13.3.0" %}
+{% set version = "13.3.1" %}
 
 package:
   name: cuda-tools
@@ -16,7 +16,7 @@ requirements:
   run:
     - cuda-command-line-tools {{ version }}
     - cuda-visual-tools {{ version }}
-    - gds-tools 1.18.0.66                     # [linux]
+    - gds-tools 1.18.1.6                     # [linux]
 
 test:
   commands:
